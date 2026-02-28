@@ -1,0 +1,44 @@
+{
+  "name": "com.unity.2d.animation",
+  "version": "12.0.3",
+  "unity": "6000.2",
+  "displayName": "2D Animation",
+  "description": "2D Animation provides all the necessary tooling and runtime components for skeletal animation using Sprites.",
+  "keywords": [
+    "2d",
+    "animation"
+  ],
+  "category": "2D",
+  "dependencies": {
+    "com.unity.2d.common": "11.0.1",
+    "com.unity.2d.sprite": "1.0.0",
+    "com.unity.collections": "1.2.4",
+    "com.unity.modules.animation": "1.0.0",
+    "com.unity.modules.uielements": "1.0.0"
+  },
+  "relatedPackages": {
+    "com.unity.2d.animation.tests": "12.0.3",
+    "com.unity.2d.common.tests": "11.0.1",
+    "com.unity.2d.psdimporter": "11.0.2"
+  },
+  "samples": [
+    {
+      "displayName": "Samples",
+      "description": "Various 2D Animation sample scenes to show different usage of the 2D Animation tooling for various outcomes.",
+      "path": "Samples~/AnimationSamples"
+    }
+  ],
+  "_upm": {
+    "changelog": "### Fixed\n- Fixed Dynamic-Batching / Skinning is broken. (DANB-1037)\n- Fix unresponsive scrolling in Sprite Library Editor grid view after adding multiple labels. (DANB-1091)\n- Fix bone drag and drop to preserve skeleton-wide order in Visibility window. (DANB-1120)"
+  },
+  "upmCi": {
+    "footprint": "cbd0c197a79d9d2cf7bc2214ef1fbc757add7594"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.2d.animation@12.0/manual/index.html",
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/2d.git",
+    "type": "git",
+    "revision": "27cd1e98fa94b5cc24ba387dd70ec2493491c485"
+  },
+  "_fingerprint": "fd6eeea117b7165f48ae1442d07c9a10c4d757f3"
+}
