@@ -1,6 +1,141 @@
-Library/
-Temp/
-Logs/
-obj/
-Builds/
-UserSettings/
+# ========================
+# Security & Secrets
+# ========================
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+*_rsa
+*_dsa
+*_ecdsa
+*_ed25519
+*.secret
+secrets.json
+secrets.yaml
+secrets.yml
+credentials.json
+.aws/
+serviceAccountKey.json
+
+# ========================
+# Unity Generated Directories
+# ========================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Bb]uild/
+[Bb]uilds/
+[Mm]emory[Cc]aptures/
+
+# ========================
+# Unity User-Local Settings
+# ========================
+[Uu]ser[Ss]ettings/
+
+# ========================
+# Unity Auto-Generated Project Files
+# ========================
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+
+# ========================
+# Build & Deployment Artifacts
+# ========================
+*.apk
+*.aab
+*.app
+*.ipa
+*.exe
+*.x86
+*.x86_64
+ExportedObj/
+*.unitypackage
+
+# ========================
+# Debug & Symbol Files
+# ========================
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb
+*.svd
+*.booproj
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# ========================
+# Visual Studio & Upgrade Artifacts
+# ========================
+.vs/
+UpgradeLog*.htm
+UpgradeLog*.xml
+
+# ========================
+# IDE & Editor Files
+# ========================
+.vscode/
+.idea/
+.gradle/
+.consulo/
+*.tmp
+
+# ========================
+# Unity Package Manager & Asset Store
+# ========================
+**/Assets/AssetStoreTools/
+**/Assets/AssetStoreTools.meta
+**/Assets/AddressableAssetsData/*/*.bin*
+**/Assets/AddressableAssetsData/*/*.bin*.meta
+**/Assets/StreamingAssets/aa.meta
+**/Assets/StreamingAssets/aa/
+
+# ========================
+# PlasticSCM (Unity Version Control)
+# ========================
+/Assets/Plugins/PlasticSCM*/
+*.private
+*.private.meta
+
+# ========================
+# Crash Reporting & Analytics
+# ========================
+crashlytics-build.properties
+sysinfo.txt
+~UnityDirMonSyncFile~*
+
+# ========================
+# Operating System Files
+# ========================
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*~
+
+# ========================
+# Logs & Temporary Files
+# ========================
+*.log
+*.tmp
+*.temp
